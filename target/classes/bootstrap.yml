@@ -1,0 +1,8 @@
+spring:
+ application:
+  name: exportation
+#spring mvc 静态资源 
+spring.mvc.static-path-pattern: /static/**
+spring.resources.static-locations: classpath:/static/**
+#security.headers.content-type: false
+

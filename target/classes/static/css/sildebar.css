@@ -1,0 +1,194 @@
+@charset "UTF-8";
+.content_sidebar  {
+    width: 330px;
+    background-color: #32323A;
+    height: 870px;
+}
+.content_sidebar>a {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+
+}
+.content_sidebar>a>img {
+    padding-left:95px;
+    padding-top:25px;
+
+}
+.content_sidebar_name {
+    font-size: 20px;
+    color:#FFF;
+    text-align: center;
+    margin-top:12px;
+}
+.contnet_sidebar_describe {
+    font-size: 14px;
+    color:#CCC;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:29px;
+}
+.content_sidebar1  {
+    width: 77px;
+}
+.content_d1 {
+    display: inline-block;
+    padding-left:37px;
+    padding-right:20px;
+    width: 21px;
+    height: 19px;
+}
+.list_admin,.list_test,.list_limit {
+    height: 67px;
+    border-top:1px solid #3B3B43;
+    border-bottom:1px solid #3B3B43;
+    font-size:18px;
+    color:#95A0aa;
+    margin-top:-1px;
+    cursor:pointer;
+}
+.list_admin:hover ,.list_test:hover ,.list_limit:hover {
+    color:#fff;
+    background-color: #ff503f;
+    border-color:#ff503f;
+}
+.list_admin_wrap.icon1:hover .list_admin_icon {
+    background:url(../images/icon.png) 0 0 no-repeat;
+}
+.list_test_wrap.icon2:hover .list_test_icon {
+    background:url(../images/icon.png) -30px 0px no-repeat;
+}
+.list_limit_wrap.icon3:hover .list_limit_icon {
+    background:url(../images/icon.png) -61px 0px no-repeat;
+}
+.list_admin:hover .list_admin_arr {
+    background:url(../images/icon.png) -123px 0 no-repeat;
+}
+
+.list_test:hover .list_test_arr {
+    background:url(../images/icon.png) -123px 0 no-repeat;
+}
+
+.list_limit:hover .list_limit_arr {
+    background:url(../images/icon.png) -123px 0 no-repeat;
+}
+
+.list_admin.current  {
+    color:#fff;
+    background-color: #ff503f;
+    border-color:#ff503f;
+}
+.list_test.current  {
+    color:#fff;
+    background-color: #ff503f;
+    border-color:#ff503f;
+}
+.list_limit.current {
+    color:#fff;
+    background-color: #ff503f;
+    border-color:#ff503f;
+}
+.list_admin_wrap.icon1 .list_admin_icon{
+    background:url(../images/icon.png) 0 -28px no-repeat;
+}
+.list_admin_wrap.icon1 .list_admin.current .list_admin_icon {
+     background:url(../images/icon.png) 0 0 no-repeat;
+ }
+.list_test_wrap.icon2 .list_test.current .list_test_icon {
+    background:url(../images/icon.png) -30px 0 no-repeat;
+}
+.list_limit_wrap.icon3 .list_limit.current .list_limit_icon {
+    background:url(../images/icon.png) -61px 0 no-repeat;
+}
+.list_admin.current .list_admin_arr {
+    display: inline-block;
+    width: 13px;
+    height: 7px;
+    background:url(../images/icon.png) -166px -29px no-repeat;
+}
+.list_test.current .list_test_arr {
+    display: inline-block;
+    width: 13px;
+    height: 7px;
+    background:url(../images/icon.png) -166px -29px no-repeat;
+}
+.list_limit.current .list_limit_arr {
+    display: inline-block;
+    width: 13px;
+    height: 7px;
+    background:url(../images/icon.png) -166px -29px no-repeat;
+}
+.navbar {
+    width: 21px;
+    height: 16px!important;
+    background:url(../images/icon.png) -92px 0 no-repeat;
+    vertical-align: middle!important;
+    display: inline-block;
+    margin-right:19px;!important;
+
+}
+
+.navbar:hover {
+    background:url(../images/icon.png) -92px -28px no-repeat;
+}
+.navbar.visite {
+    background:url(../images/icon.png) -92px -28px no-repeat;
+}
+.list_admin_icon,.list_test_icon,.list_limit_icon {
+    width: 22px;
+    height: 19px;
+    display: inline-block;
+    margin-left:29px;
+    margin-top:24px;
+    margin-right:29px;
+}
+.list_test_wrap.icon2 .list_test_icon {
+    background:url(../images/icon.png) -30px -28px no-repeat;
+}
+.list_limit_wrap.icon3 .list_limit_icon {
+    background:url(../images/icon.png) -61px -28px no-repeat;
+}
+.list_admin>span ,.list_test>span ,.list_limit>span{
+    display: inline-block;
+    height: 67px;
+    line-height: 67px;
+    vertical-align: top;
+    width: 198px;
+}
+.list_admin_arr,.list_test_arr,.list_limit_arr {
+    width: 7px;
+    height: 15px;
+    display: inline-block;
+    background:url(../images/icon.png) -123px -28px no-repeat;
+    margin-top:23px;
+}
+.list_admin_arr.clicked,.list_test_arr.clicked,.list_limit_arr.clicked {
+    width: 13px;
+    height: 7px;
+    background:url(../images/icon.png) -166px -29px no-repeat;
+    display: inline-block;
+
+}
+.guanli_wrap {
+    background-color: #2A2A2F;
+    display:none;
+}
+.guanli_wrap li {
+    height: 55px;
+    line-height: 55px;
+    font-size: 16px;
+    color:#F2F2F2;
+    background-color: #47474E;
+    padding-left:83px;
+}
+.guanli_wrap li:hover {
+    background-color: #5B5B61;
+    color:#EAEAEA;
+}
+.guanli_wrap li.selected {
+    background-color: #5B5B61;
+    color:#EAEAEA;
+}
+.guanli_wrap li {
+    cursor:pointer;
+}

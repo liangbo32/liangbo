@@ -1,0 +1,243 @@
+@charset "UTF-8";
+.content_table {
+    box-sizing: border-box;
+    margin-left:314px;
+
+}
+body{
+    background-color: #FFF;
+    height:800px;
+}
+.content_table th {
+    height: 50px;
+    font-size:14px;
+    color:#FDB7B0;
+    font-weight: normal;
+    border-bottom:1px solid #E2E2E2;
+    background-color: #FAFAFA;
+    text-align:left;
+}
+.content_title {
+    font-size: 14px;
+    color:#A3A3A3;
+    height: 60px;
+    line-height: 60px;
+    padding-left:26px;
+
+}
+button {
+	cursor:pointer;
+}
+.content_title span {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+    font-size:12px;
+    color:#777;
+
+}
+.content_title {
+    font-size: 14px;
+    color:#A3A3A3;
+    min-width: 876px;
+}
+.content_title>span {
+    color:#FF503F;
+    font-size: 12px;
+}
+.content_title>i {
+    font-size: 12px;
+    color:#A3A3A3;
+}
+.content_list_title {
+    height: 70px;
+    line-height: 74px;
+    background-color: #FBFBFB;
+    font-size: 18px;
+    padding-left:30px;
+    color:#777;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 846px;
+}
+.content_list {
+    height: 862px;
+    background-color: #fff;
+    margin:10px 30px 32px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    min-width: 846px;
+}
+.content_list_wirte  {
+    padding-left:27px;
+    padding-top:31px;
+    background-color:#FBFBFB;
+    border:1px solid #E2E2E2;
+    height: 172px;
+    margin:32px 36px 30px;
+    box-sizing: border-box;
+    min-width: 876px;
+}
+.content_list_wirte_top {
+    height: 40px;
+}
+.content_list_title {
+    height: 70px;
+    line-height: 74px;
+    background-color: #FBFBFB;
+    font-size: 18px;
+    padding-left:30px;
+    color:#777;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.content_list {
+    height: 776px;
+    background-color: #fff;
+    margin:10px 30px 32px 45px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+.content_search  {
+  /*  width: 624px;*/
+    height: 76px;
+    width: 60%;
+    min-width:1032px;
+    margin:0 auto;
+    position: relative;
+    margin-top:175px;
+}
+
+.content_search > input {
+    width: 100%;
+    border-radius: 5px;
+    border:2px solid #FF503F;
+    padding-left:20px;
+    box-sizing: border-box;
+    height: 72px;
+    font-size: 20px;
+      min-width:1032px;
+}
+.content_search_line {
+    position: absolute;
+    background:url(../images/HScode_line.png) no-repeat;
+    width: 1px;
+    height: 40px;
+    left:2px;
+    top:17px;
+}
+.content_search_magnifyingGlass {
+    width: 32px;
+    height: 32px;
+    background:url(../images/Hscode_search.png) no-repeat;
+    position: absolute;
+    top:20px;
+    right: 36%;
+}
+.content_search_list {
+    width: 100%;
+      min-width:1032px;
+    box-sizing: border-box;
+    position: absolute;
+    top:71px;
+    left:0;
+    border:2px solid #FF503F;
+    background-color: #fff;
+    padding:9px 10px;
+    border-top: none;
+    display: none;
+    z-index:99;
+    height: 289px;
+    overflow-y: scroll;
+}
+.content_search_list >li {
+    height: 35px;
+    line-height:35px;
+    font-size: 16px;
+    color:#B2B2B2;
+}
+.wrap_content_search {
+    display: inline-block;
+    width: 121px;
+    position: absolute;
+    top:0;
+    right:0;
+    height: 72px;
+}
+.content_search_list.show {
+    display: block;
+}
+.content_search_input.bor {
+    border-radius: 5px 5px 0 0;
+}
+/*搜索框动态*/
+.content_search_list>li>div {
+    display: inline-block;
+}
+.content_search_list>li .list_name {
+    width: 50%;
+    box-sizing: border-box;
+    padding-left:30px;
+    font-size:14px ;
+    color:#555;
+    min-widht:50%;
+}
+.content_list_wrap_title  .list_name1 {
+    width: 50%;
+    box-sizing: border-box;
+    padding-left:30px;
+    font-size:15px ;
+    font-weight: bold;
+    color:#555;
+    min-width: 50%;
+}
+.content_search_list>li .list_code {
+    width: 8%;
+    font-size:14px ;
+    color:#555;
+    min-width:8%;
+}
+.content_list_wrap_title  .list_code1 {
+    width: 8%;
+    font-size:15px ;
+    color:#555;
+    font-weight: bold;
+    min-width:8%;
+}
+.list_user {
+    width: 18%;
+    padding-left:30px;
+    font-size:14px ;
+    color:#555;
+}
+.content_list_wrap_title .list_user1 {
+    width: 18%;
+    padding-left:30px;
+    font-size:15px ;
+    color:#555;
+    font-weight: bold;
+    min-width: 10%;
+}
+.list_area {
+    width: 12%;
+    padding-left:30px;
+    font-size:14px ;
+    color:#555;
+    min-width:12%;
+}
+.content_list_wrap_title .list_area1 {
+    width: 12%;
+    padding-left:30px;
+    font-size:15px ;
+    color:#555;
+    font-weight: bold;
+    min-width: 12%;
+}
+
+
+
+
+
+

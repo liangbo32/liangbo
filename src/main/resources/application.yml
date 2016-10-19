@@ -1,0 +1,55 @@
+server:
+  context-path: /liangbo
+  port: 8088
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: 123
+  oauth2:
+    client:
+      client-id: temp
+      client-secret: tempsecret
+      scope: read
+      accessTokenUri: http://172.16.10.56:8079/authoritySystem/oauth/token
+      userAuthorizationUri: http://172.16.10.56:8079/authoritySystem/oauth/authorize
+      #clientAuthenticationScheme: from
+    resource:
+      #id: openid
+      user-info-uri: http://172.16.10.56:8079/authoritySystem/me
+      #preferTokenInfo: false
+spring:
+  datasource:
+    #url: jdbc:oracle:thin:@139.129.216.32:1521:orcl
+    #username: OBOR_EXS
+    url: jdbc:oracle:thin:@172.16.10.56:1521:orcl
+    username: C##OBOR_EXS
+    password: OBOR_EXS
+    driver-class-name: oracle.jdbc.OracleDriver
+  org.mybatis:
+    console:
+      enabled: true 
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html  
+    encoding: UTF-8
+    cache: false
+httpstr: http://172.16.10.56:8079/authoritySystem
+#custcode: XIAN
+#orcl_user: OBOR_EXS
+#barcode: CODETS
+#batchtask: 0
+custcode: ZHENGZHOU
+orcl_user: C##OBOR_EXS
+barcode: BARCODE
+batchtask: 1
+logging:
+  level:
+    org.springframework.security: INFO
+    com.netflix.discovery: 'OFF'
+    org.mybatis: INFO
+    java.sql.PreparedStatement: INFO  
+  config:
+    classpath: logback.xml
+      
